@@ -1,0 +1,55 @@
+.menu {
+    list-style: none;
+}
+
+.menu:after {
+    content: '';
+    clear: both;
+}
+
+.menu li {
+    float: left;
+    background: red;
+    width: 100px;
+    height: 30px;
+    color: white;
+    line-height: 200%;
+    border-right: 1px black solid;
+    text-align: center;
+}
+
+.menu li:hover {
+    background: yellow;
+    color: red;
+}
+
+.clear {
+    clear: both;
+}
+
+.sub-menu {
+    list-style: none;
+    display: none;
+}
+
+.sub-menu li {
+    border-bottom: 1px black solid;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
