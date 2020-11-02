@@ -1,0 +1,125 @@
+* {
+  padding : 0;
+  margin: 0;
+  font-family: arial;
+}
+
+hr {
+    border-color: #ffffff;
+}
+.container {
+    width: 40%;
+    border: 1px gray solid;
+    margin: 10px auto 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+.header {
+    padding: 30px;
+    border-radius: inherit;
+}
+
+.center, .footer {
+    padding: 30px;
+    border-radius: 5px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+i {
+    float: right;
+    color: gray;
+}
+
+.clear {
+    clear: both;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: inherit;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    line-height: 240%;
+}
+
+.facebook {
+    background: #538ac5;
+}
+
+.twitter {
+    background: #5db1d3;
+}
+
+.inp {
+    width: 100%;
+    height: 40px;
+    border-radius: inherit;
+    margin-top: 10px;
+    border: 1px gray solid;
+    padding-left: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: gray;
+}
+
+.center p {
+    margin-top: 10px;
+}
+
+.center p a {
+    text-decoration: none;
+    color: #5db1d3;
+}
+
+.left {
+    width: 70%;
+    float: left;
+}
+
+.left a {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: gray;
+}
+
+.right {
+    float: right;
+}
+
+.btn-login {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    border: 1px #ca5b54 solid;
+    background: #ca5b54;
+    border-radius: 5px;
+    top: -10px;
+    font-size: 16px;
+}
+
+.footer {
+    background: #f0f0f0;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
