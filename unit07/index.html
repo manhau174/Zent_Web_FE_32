@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .content {
+            width: 25%;
+            box-sizing: border-box;
+            background: #f7f7f7;
+        }
+
+        .img {
+            position: relative;
+        }
+        .content img {
+            width: 100%;
+        }
+
+        .info {
+            position: absolute;
+            bottom: 0;
+            height: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            color: white;
+            text-align: center;
+            overflow: hidden;
+            transition: height 2s linear;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .content:hover .info {
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="img">
+            <img src="images/anh1.png" alt="">
+            <div class="info">
+                <h3>Info</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Doloribus, possimus.</p>
+            </div>
+        </div>
+        <div class="title">
+            <h3>ROBERT</h3>
+            <p>FOUDER</p>
+        </div>
+    </div>
+</body>
+</html>

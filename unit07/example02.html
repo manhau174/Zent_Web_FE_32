@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .content {
+            width: 25%;
+            box-sizing: border-box;
+            background: #f7f7f7;
+            position: relative;
+            float: left;
+            padding: 5px;
+        }
+
+        .title {
+            text-align: center;
+            height: 70px;
+            padding-top: 10px;
+            overflow: hidden;
+        }
+
+        .content img {
+            width: 100%;
+        }
+
+        h3 {
+            margin-top: 0 !important;
+        }
+
+        .content:hover {
+            /*overflow: hidden;*/
+            padding-bottom: 85px;
+        }
+
+        .content:hover .title {
+            background: rgba(255, 255, 255, 0.3);
+            /*color: white;*/
+            position: absolute;
+            animation-name: toTop;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            top: 0px;
+            height: 100%;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        @media all and (max-width: 768px) {
+            .content {
+                width: 50%;
+            }
+        }
+
+        @media all and (max-width: 480px) {
+            .content {
+                width: 100%;
+            }
+        }
+
+        @keyframes toTop {
+            0% {
+                top: 80%;
+                height: 30%;
+
+            }
+            25% {
+                top: 60%;
+                height: 50%;
+            }
+
+            50% {
+                top: 40%;
+                height: 70%;
+            }
+
+            75% {
+                top: 20%;
+                height: 85%;
+            }
+
+            100% {
+                top: 0;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="images/anh1.png" alt="">
+        <div class="title">
+            <h3>ROBERT</h3>
+            <p>FOUDER</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, earum.</span>
+        </div>
+    </div>
+
+    <div class="content">
+        <img src="images/anh1.png" alt="">
+        <div class="title">
+            <h3>ROBERT</h3>
+            <p>FOUDER</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, earum.</span>
+        </div>
+    </div>
+
+    <div class="content">
+        <img src="images/anh1.png" alt="">
+        <div class="title">
+            <h3>ROBERT</h3>
+            <p>FOUDER</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, earum.</span>
+        </div>
+    </div>
+
+    <div class="content">
+        <img src="images/anh1.png" alt="">
+        <div class="title">
+            <h3>ROBERT</h3>
+            <p>FOUDER</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, earum.</span>
+        </div>
+    </div>
+    <div class="clear"></div>
+</body>
+</html>
